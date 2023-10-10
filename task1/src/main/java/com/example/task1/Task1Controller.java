@@ -1,11 +1,11 @@
-package com.example.java2_;
+package com.example.task1;
 
 import javafx.fxml.FXML;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 
-public class HelloController {
+public class Task1Controller {
     @FXML
     private Canvas canvas;
 
@@ -33,7 +33,7 @@ public class HelloController {
     @FXML
     private TextField textField1;
 
-    //private GraphicsContext gc;
+
 
     private Shape shape;
     @FXML
@@ -85,5 +85,4 @@ public class HelloController {
         alert.setContentText(text);
         alert.showAndWait();
     }
-
 }

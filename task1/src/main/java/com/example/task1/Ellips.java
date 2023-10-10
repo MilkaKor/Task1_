@@ -1,4 +1,4 @@
-package com.example.java2_;
+package com.example.task1;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
@@ -23,3 +23,4 @@ public class Ellips extends Shape{
         return "Выбранная фигура: Круг: Размеры: "+height + "x"+width;
     }
 }
+
