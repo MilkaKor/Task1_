@@ -23,4 +23,3 @@ public class Ellips extends Shape{
         return "Выбранная фигура: Круг: Размеры: "+height + "x"+width;
     }
 }
-
