@@ -1,96 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" prefHeight="486.0" prefWidth="489.0" spacing="20.0" style="-fx-background-color: #dbd5ca;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task0.HelloController">
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.task0.HelloController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
-    <children>
-        <FlowPane fx:id="panel" minHeight="92.0" prefHeight="143.0" prefWidth="437.0">
-            <VBox.margin>
-                <Insets />
-            </VBox.margin>
-            <children>
-                <Label text="Сумма в чеке:">
-                    <FlowPane.margin>
-                        <Insets left="20.0" top="36.0" />
-                    </FlowPane.margin>
-                    <font>
-                        <Font name="Lucida Sans Unicode" size="16.0" />
-                    </font>
-                </Label>
-                <TextField fx:id="txtField" prefHeight="26.0" prefWidth="291.0" style="-fx-background-color: #fffbeb;">
-                    <FlowPane.margin>
-                        <Insets top="36.0" />
-                    </FlowPane.margin>
-                </TextField>
-            </children>
-        </FlowPane>
-        <HBox fx:id="box1" minHeight="75.0" prefHeight="106.0" prefWidth="450.0">
-            <VBox.margin>
-                <Insets top="10.0" />
-            </VBox.margin>
-            <children>
-                <Button fx:id="but1" mnemonicParsing="false" onAction="#onFirstClick" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #fffbeb;" text="Чаевые 15%">
-                    <HBox.margin>
-                        <Insets left="28.0" top="21.0" />
-                    </HBox.margin>
-                    <font>
-                        <Font size="13.0" />
-                    </font>
-                </Button>
-                <Label fx:id="lab1" text="Счет">
-                    <HBox.margin>
-                        <Insets left="124.0" top="26.0" />
-                    </HBox.margin>
-                    <font>
-                        <Font name="Georgia" size="14.0" />
-                    </font>
-                </Label>
-            </children>
-        </HBox>
-        <HBox fx:id="box2" minHeight="75.0" prefHeight="109.0" prefWidth="450.0">
-            <children>
-                <Button fx:id="but2" mnemonicParsing="false" onAction="#onTwoClick" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: #fffbeb;" text="Чаевые 10%">
-                    <font>
-                        <Font size="13.0" />
-                    </font>
-                    <HBox.margin>
-                        <Insets left="28.0" top="21.0" />
-                    </HBox.margin>
-                </Button>
-                <Label fx:id="lab2" text="Счет">
-                    <font>
-                        <Font name="Georgia" size="14.0" />
-                    </font>
-                    <HBox.margin>
-                        <Insets left="124.0" top="26.0" />
-                    </HBox.margin>
-                </Label>
-            </children></HBox>
-        <HBox fx:id="box3" minHeight="75.0" prefHeight="108.0" prefWidth="450.0">
-            <children>
-                <Button fx:id="but3" mnemonicParsing="false" onAction="#onThreeClick" prefHeight="33.0" prefWidth="129.0" style="-fx-background-color: fffbeb;" text="Чаевые 3%">
-                    <HBox.margin>
-                        <Insets left="28.0" top="21.0" />
-                    </HBox.margin>
-                    <font>
-                        <Font size="13.0" />
-                    </font>
-                </Button>
-                <Label fx:id="lab3" text="Счет">
-                    <font>
-                        <Font name="Georgia" size="14.0" />
-                    </font>
-                    <HBox.margin>
-                        <Insets left="124.0" top="26.0" />
-                    </HBox.margin>
-                </Label>
-            </children>
-        </HBox>
-    </children>
+
+    <Label fx:id="welcomeText"/>
+    <Button text="Hello!" onAction="#onHelloButtonClick"/>
 </VBox>
