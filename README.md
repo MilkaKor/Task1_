@@ -1,5 +1,6 @@
 # Технологии программирования
 ___
+### Слайдерт https://github.com/MilkaKor/Programing_tehnology_task4_5
 - [x] Слайдер - [Слайдер](https://github.com/MilkaKor/Programing_tehnology_task4_5)
 - [x] Наблюдатель - [Наблюдатель](https://github.com/MilkaKor/ProgrammingTech_observer)
 ___
