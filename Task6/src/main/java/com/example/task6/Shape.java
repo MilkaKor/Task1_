@@ -9,7 +9,7 @@ abstract class Shape implements Cloneable{
 
     abstract double area();
 
-    abstract void draw(GraphicsContext gr);
+    abstract void draw(GraphicsContext gr); \\ а зачем был интерфейс IShape? тогда его использовать здесь надо
     abstract void setBorder(Color color, double size);
     public Shape(Color color) {
         System.out.println("Shape constructor called");
@@ -28,7 +28,7 @@ abstract class Shape implements Cloneable{
     }
     @Override
     public String toString() {
-        return "";
+        return "какая-то фигура";
     }
 
     public Object clone() {
