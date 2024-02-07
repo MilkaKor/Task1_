@@ -1,7 +1,7 @@
 # Технологии программирования
 ___
 ### Слайдерт https://github.com/MilkaKor/Programing_tehnology_task4_5
-### Наблюдатель https://github.com/MilkaKor/ProgrammingTech_observer-master
+### Наблюдатель https://github.com/MilkaKor/ProgrammingTech_observer
 ### Декоратор https://github.com/MilkaKor/programmingTechnology_decorator
 ___
 ## Task0 | Делегирование
