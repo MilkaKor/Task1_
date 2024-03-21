@@ -3,7 +3,7 @@ ___
 ### Слайдерт https://github.com/MilkaKor/Programing_tehnology_task4_5
 ### Наблюдатель https://github.com/MilkaKor/ProgrammingTech_observer
 ### Декоратор https://github.com/MilkaKor/Decorator_ProgrammingTechnology
-### Игра https://github.com/MilkaKor/Game_ProgrammingTechnology
+### Игра https://github.com/MilkaKor/Game
 ___
 ## Task0 | Делегирование
 ### Условия задачи
