@@ -4,6 +4,7 @@ ___
 ### Наблюдатель https://github.com/MilkaKor/ProgrammingTech_observer
 ### Декоратор https://github.com/MilkaKor/Decorator_ProgrammingTechnology
 ### Игра https://github.com/MilkaKor/Game
+### DAO https://github.com/MilkaKor/ProggramingTechnology_DAO
 ___
 ## Task0 | Делегирование
 ### Условия задачи
