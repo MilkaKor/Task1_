@@ -7,7 +7,7 @@ ___
 ### DAO https://github.com/MilkaKor/ProggramingTechnology_DAO
 ### Producer-consumer https://github.com/MilkaKor/ProggramingTechnology_Producer
 ### Unit-test https://github.com/MilkaKor/untitled
-### Plagin https://github.com/MilkaKor/PlaginIDE
+### Plagin https://github.com/MilkaKor/PlaginDiagramIdea
 ___
 ## Task0 | Делегирование
 ### Условия задачи
