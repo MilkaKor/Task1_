@@ -8,6 +8,7 @@ ___
 ### Producer-consumer https://github.com/MilkaKor/ProggramingTechnology_Producer
 ### Unit-test https://github.com/MilkaKor/untitled
 ### Plagin https://github.com/MilkaKor/PlaginDiagramIdea
+### MeteoServer https://github.com/MilkaKor/MeteoServer
 ___
 ## Task0 | Делегирование
 ### Условия задачи
